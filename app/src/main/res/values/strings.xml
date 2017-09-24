@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Forecast</string>
+    <string name="title_city_list">Cities</string>
+    <string name="title_city_detail">City Detail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alert_title_connection_error">Connection Error</string>
+    <string name="alert_msg_connection_error">Weather Service connection failed. Make sure your Internet connection is active and try again</string>
+    <string name="dialog_title_city_confirm">Confirm Cty</string>
+    <string name="dialog_msg_city_confirm">Do you mean this city? If this city is incorrect, check your input and try again.</string>
+    <string name="btn_title_submit">Submit</string>
+    <string name="hint_city_name">City Name (english only)</string>
+    <string name="alert_title_city_exists">City exists</string>
+    <string name="alert_msg_city_exists">City with the same name already exists in the cities list.</string>
+    <string name="btn_title_ok">Ok</string>
+    <string name="btn_title_yes">Yes</string>
+    <string name="btn_title_no">No</string>
+    <string name="input_error_empty_city">Please enter city.</string>
+    <string name="toast_error_unknown">unknown error</string>
+    <string name="tab_title_city_choose">Choose City</string>
+    <string name="tab_title_city_list">Saved Cities</string>
+</resources>

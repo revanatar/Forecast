@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_day_forecast"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+    <FrameLayout
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/item_day_forecast_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minHeight="60dp"
+            android:minWidth="60dp"
+            />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded"
+        >
+
+        <TextView
+            android:id="@+id/item_day_forecast_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="some date"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+        <TextView
+            android:id="@+id/item_day_forecast_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="some forecast"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded"
+        >
+
+        <TextView
+            android:id="@+id/item_day_forecast_temp_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:text="100"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+        <TextView
+            android:id="@+id/item_day_forecast_temp_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:text="50"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            />
+    </LinearLayout>
+</LinearLayout>
